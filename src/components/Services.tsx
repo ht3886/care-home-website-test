@@ -89,11 +89,11 @@ const Services = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:321-438-1919"
+                href="tel:+13069798468"
                 className="inline-flex items-center justify-center space-x-2 bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition"
               >
                 <Clock className="w-5 h-5" />
-                <span>Call Us: 321-438-1919</span>
+                <span>Call Us: (306) 979-8468</span>
               </a>
               <a
                 href="#contact"

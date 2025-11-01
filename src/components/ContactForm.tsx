@@ -73,8 +73,8 @@ const ContactForm = () => {
                     </div>
                     <div>
                       <p className="text-blue-100 text-sm mb-1">Phone</p>
-                      <a href="tel:321-438-1919" className="text-white text-xl font-bold hover:text-yellow-400 transition">
-                        321-438-1919
+                      <a href="tel:+13069798468" className="text-white text-xl font-bold hover:text-yellow-400 transition">
+                        (306) 979-8468
                       </a>
                       <p className="text-blue-200 text-sm mt-1">Available 24/7</p>
                     </div>
@@ -87,7 +87,7 @@ const ContactForm = () => {
                     <div>
                       <p className="text-blue-100 text-sm mb-1">Address</p>
                       <p className="text-white text-lg font-semibold">123 Prince Street</p>
-                      <p className="text-blue-200">Ottawa, Ontario</p>
+                      <p className="text-blue-200">Saskatoon, SK</p>
                     </div>
                   </div>
 
@@ -96,9 +96,11 @@ const ContactForm = () => {
                       <Mail className="w-6 h-6 text-blue-900" />
                     </div>
                     <div>
-                      <p className="text-blue-100 text-sm mb-1">Get a Response</p>
-                      <p className="text-white text-lg font-semibold">Fill out the form</p>
-                      <p className="text-blue-200">We'll get back to you promptly</p>
+                      <p className="text-blue-100 text-sm mb-1">Email Us</p>
+                      <a href="mailto:info@broadwaycares.ca" className="text-white text-lg font-semibold hover:text-yellow-400 transition">
+                        info@broadwaycares.ca
+                      </a>
+                      <p className="text-blue-200">Best way to reach us</p>
                     </div>
                   </div>
                 </div>
@@ -110,11 +112,11 @@ const ContactForm = () => {
                   Schedule a tour of our facility and meet our caring team in person. We'd love to show you around!
                 </p>
                 <a
-                  href="tel:321-438-1919"
+                  href="mailto:info@broadwaycares.ca"
                   className="inline-flex items-center space-x-2 bg-blue-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition"
                 >
-                  <Phone className="w-5 h-5" />
-                  <span>Call Now to Book</span>
+                  <Mail className="w-5 h-5" />
+                  <span>Email to Book</span>
                 </a>
               </div>
             </div>
@@ -182,7 +184,7 @@ const ContactForm = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
-                    placeholder="321-438-1919"
+                    placeholder="(306) 979-8468"
                   />
                 </div>
 
@@ -222,7 +224,7 @@ const ContactForm = () => {
               </form>
 
               <p className="text-gray-600 text-sm text-center mt-4">
-                Or call us directly at <a href="tel:321-438-1919" className="text-blue-700 font-semibold hover:underline">321-438-1919</a>
+                Or call us at <a href="tel:+13069798468" className="text-blue-700 font-semibold hover:underline">(306) 979-8468</a> or email <a href="mailto:info@broadwaycares.ca" className="text-blue-700 font-semibold hover:underline">info@broadwaycares.ca</a>
               </p>
             </div>
           </div>

@@ -18,16 +18,16 @@ const Hero = () => {
             Your Brightest Days Are Waiting!
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 mb-12 leading-relaxed">
-            Experience compassionate care in a warm, welcoming environment at Reliance Industries Care Home
+            Experience compassionate care in a warm, welcoming environment at Broadway Care Homes
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="tel:321-438-1919"
+              href="tel:+13069798468"
               className="inline-flex items-center space-x-3 bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               <Phone className="w-6 h-6" />
-              <span>Call for a Tour: 321-438-1919</span>
+              <span>Call for a Tour: (306) 979-8468</span>
             </a>
 
             <a
@@ -43,8 +43,8 @@ const Hero = () => {
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-white">
               <Phone className="w-8 h-8 mb-3 mx-auto" />
               <p className="text-sm text-blue-100 mb-1">Call Us</p>
-              <a href="tel:321-438-1919" className="text-2xl font-bold hover:text-yellow-400 transition">
-                321-438-1919
+              <a href="tel:+13069798468" className="text-2xl font-bold hover:text-yellow-400 transition">
+                (306) 979-8468
               </a>
             </div>
 
@@ -56,7 +56,7 @@ const Hero = () => {
               </div>
               <p className="text-sm text-blue-100 mb-1">Visit Us</p>
               <p className="text-lg font-semibold">123 Prince Street</p>
-              <p className="text-sm text-blue-100">Ottawa, Ontario</p>
+              <p className="text-sm text-blue-100">Saskatoon, SK</p>
             </div>
           </div>
         </div>

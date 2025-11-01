@@ -28,8 +28,8 @@ function App() {
             <div className="flex items-center space-x-2">
               <Heart className="w-8 h-8 text-blue-700" />
               <div>
-                <h1 className="text-2xl font-bold text-blue-900">Reliance Industries</h1>
-                <p className="text-sm text-gray-600">Care Home</p>
+                <h1 className="text-2xl font-bold text-blue-900">Broadway Care Homes</h1>
+                <p className="text-sm text-gray-600">Compassionate Care</p>
               </div>
             </div>
 
@@ -55,8 +55,8 @@ function App() {
             {/* Contact Info */}
             <div className="hidden lg:flex items-center space-x-2 text-blue-900">
               <Phone className="w-5 h-5" />
-              <a href="tel:321-438-1919" className="font-semibold text-lg hover:text-blue-700 transition">
-                321-438-1919
+              <a href="tel:+13069798468" className="font-semibold text-lg hover:text-blue-700 transition">
+                (306) 979-8468
               </a>
             </div>
 
@@ -88,9 +88,9 @@ function App() {
                 <button onClick={() => scrollToSection('contact')} className="text-left text-gray-700 hover:text-blue-700 transition py-2">
                   Contact
                 </button>
-                <a href="tel:321-438-1919" className="flex items-center space-x-2 text-blue-900 font-semibold py-2">
+                <a href="tel:+13069798468" className="flex items-center space-x-2 text-blue-900 font-semibold py-2">
                   <Phone className="w-5 h-5" />
-                  <span>321-438-1919</span>
+                  <span>(306) 979-8468</span>
                 </a>
               </nav>
             </div>

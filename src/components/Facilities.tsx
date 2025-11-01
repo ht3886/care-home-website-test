@@ -85,9 +85,9 @@ const Facilities = () => {
           <div className="bg-gradient-to-br from-blue-900 to-blue-700 rounded-2xl p-8 md:p-12 text-white">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-3xl font-bold mb-4">Conveniently Located in Ottawa</h3>
+                <h3 className="text-3xl font-bold mb-4">Conveniently Located in Saskatoon</h3>
                 <p className="text-xl text-blue-100 mb-6 leading-relaxed">
-                  Our care home is situated in a peaceful neighborhood at 123 Prince Street, Ottawa, Ontario. Easy to visit and close to amenities.
+                  Our care home is situated in a peaceful neighborhood at 123 Prince Street, Saskatoon, SK. Easy to visit and close to amenities.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
@@ -98,7 +98,7 @@ const Facilities = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-lg">123 Prince Street</p>
-                      <p className="text-blue-100">Ottawa, Ontario</p>
+                      <p className="text-blue-100">Saskatoon, SK</p>
                     </div>
                   </div>
                 </div>
@@ -110,10 +110,10 @@ const Facilities = () => {
                   We welcome you to tour our facility and see firsthand the warm, caring environment we provide.
                 </p>
                 <a
-                  href="tel:321-438-1919"
+                  href="tel:+13069798468"
                   className="inline-block bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition shadow-lg"
                 >
-                  Call to Book: 321-438-1919
+                  Call to Book: (306) 979-8468
                 </a>
               </div>
             </div>

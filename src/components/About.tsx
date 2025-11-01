@@ -8,7 +8,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
-              About Reliance Industries Care Home
+              About Broadway Care Homes
             </h2>
             <div className="w-24 h-1 bg-yellow-400 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -22,10 +22,10 @@ const About = () => {
                 <Heart className="w-16 h-16 text-blue-700 mb-4" />
                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Our Mission</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  At Reliance Industries Care Home, we are dedicated to providing the highest quality of care in a comfortable, home-like setting. Located in the heart of Ottawa at 123 Prince Street, we believe that every resident deserves to live with dignity, respect, and compassion.
+                  At Broadway Care Homes, we are dedicated to providing the highest quality of care in a comfortable, home-like setting. Located at 123 Prince Street in Saskatoon, SK, we believe that every resident deserves to live with dignity, respect, and compassion.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Our experienced and caring staff are available around the clock to ensure the safety, comfort, and well-being of all our residents. We strive to create an environment where your loved ones can thrive and enjoy their golden years.
+                  Our owners are registered nurses with 15 years of bedside experience in long-term care, medical-surgical units, ICU, and emergency. Our experienced and caring staff are available around the clock to ensure the safety, comfort, and well-being of all our residents. We strive to create an environment where your loved ones can thrive and enjoy their golden years.
                 </p>
               </div>
             </div>
@@ -64,10 +64,10 @@ const About = () => {
               Contact us today to schedule a tour of our facility and meet our caring team
             </p>
             <a
-              href="tel:321-438-1919"
+              href="mailto:info@broadwaycares.ca"
               className="inline-block bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition shadow-lg"
             >
-              Call Now: 321-438-1919
+              Email Us: info@broadwaycares.ca
             </a>
           </div>
         </div>

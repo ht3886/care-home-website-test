@@ -16,8 +16,8 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
               <div className="flex items-center space-x-2 mb-4">
                 <Heart className="w-8 h-8 text-yellow-400" />
                 <div>
-                  <h3 className="text-xl font-bold">Reliance Industries</h3>
-                  <p className="text-sm text-blue-200">Care Home</p>
+                  <h3 className="text-xl font-bold">Broadway Care Homes</h3>
+                  <p className="text-sm text-blue-200">Compassionate Care</p>
                 </div>
               </div>
               <p className="text-blue-200 leading-relaxed mb-4">
@@ -64,8 +64,8 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
                 <li className="flex items-start space-x-2">
                   <Phone className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
                   <div>
-                    <a href="tel:321-438-1919" className="text-blue-200 hover:text-yellow-400 transition">
-                      321-438-1919
+                    <a href="tel:+13069798468" className="text-blue-200 hover:text-yellow-400 transition">
+                      (306) 979-8468
                     </a>
                     <p className="text-sm text-blue-300">24/7 Available</p>
                   </div>
@@ -74,8 +74,14 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
                   <MapPin className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
                   <div className="text-blue-200">
                     <p>123 Prince Street</p>
-                    <p>Ottawa, Ontario</p>
+                    <p>Saskatoon, SK</p>
                   </div>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <Mail className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
+                  <a href="mailto:info@broadwaycares.ca" className="text-blue-200 hover:text-yellow-400 transition">
+                    info@broadwaycares.ca
+                  </a>
                 </li>
               </ul>
             </div>
@@ -85,7 +91,7 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
           <div className="border-t border-blue-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-blue-300 text-sm text-center md:text-left">
-                &copy; {new Date().getFullYear()} Reliance Industries Care Home. All rights reserved.
+                &copy; {new Date().getFullYear()} Broadway Care Homes. All rights reserved.
               </p>
 
               <div className="flex items-center space-x-2 text-blue-300 text-sm">
