@@ -1,0 +1,103 @@
+import React from 'react';
+import { Heart, Phone, MapPin, Mail } from 'lucide-react';
+
+interface FooterProps {
+  scrollToSection: (id: string) => void;
+}
+
+const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
+  return (
+    <footer className="bg-blue-950 text-white py-12">
+      <div className="container mx-auto px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-4 gap-8 mb-8">
+            {/* Logo and Description */}
+            <div className="md:col-span-2">
+              <div className="flex items-center space-x-2 mb-4">
+                <Heart className="w-8 h-8 text-yellow-400" />
+                <div>
+                  <h3 className="text-xl font-bold">Reliance Industries</h3>
+                  <p className="text-sm text-blue-200">Care Home</p>
+                </div>
+              </div>
+              <p className="text-blue-200 leading-relaxed mb-4">
+                Providing compassionate, quality care in a warm, home-like environment. Your loved ones deserve the best, and we're here to deliver it every day.
+              </p>
+            </div>
+
+            {/* Quick Links */}
+            <div>
+              <h4 className="text-lg font-bold mb-4">Quick Links</h4>
+              <ul className="space-y-2">
+                <li>
+                  <button onClick={() => scrollToSection('home')} className="text-blue-200 hover:text-yellow-400 transition">
+                    Home
+                  </button>
+                </li>
+                <li>
+                  <button onClick={() => scrollToSection('about')} className="text-blue-200 hover:text-yellow-400 transition">
+                    About Us
+                  </button>
+                </li>
+                <li>
+                  <button onClick={() => scrollToSection('services')} className="text-blue-200 hover:text-yellow-400 transition">
+                    Our Services
+                  </button>
+                </li>
+                <li>
+                  <button onClick={() => scrollToSection('facilities')} className="text-blue-200 hover:text-yellow-400 transition">
+                    Facilities
+                  </button>
+                </li>
+                <li>
+                  <button onClick={() => scrollToSection('contact')} className="text-blue-200 hover:text-yellow-400 transition">
+                    Contact
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            {/* Contact Info */}
+            <div>
+              <h4 className="text-lg font-bold mb-4">Contact Us</h4>
+              <ul className="space-y-3">
+                <li className="flex items-start space-x-2">
+                  <Phone className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <a href="tel:321-438-1919" className="text-blue-200 hover:text-yellow-400 transition">
+                      321-438-1919
+                    </a>
+                    <p className="text-sm text-blue-300">24/7 Available</p>
+                  </div>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <MapPin className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
+                  <div className="text-blue-200">
+                    <p>123 Prince Street</p>
+                    <p>Ottawa, Ontario</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Bottom Bar */}
+          <div className="border-t border-blue-800 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+              <p className="text-blue-300 text-sm text-center md:text-left">
+                &copy; {new Date().getFullYear()} Reliance Industries Care Home. All rights reserved.
+              </p>
+
+              <div className="flex items-center space-x-2 text-blue-300 text-sm">
+                <Heart className="w-4 h-4 text-yellow-400" />
+                <span>Caring for your loved ones with compassion</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

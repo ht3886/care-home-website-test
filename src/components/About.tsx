@@ -1,0 +1,79 @@
+import React from 'react';
+import { Heart, Users, Award, Home } from 'lucide-react';
+
+const About = () => {
+  return (
+    <section id="about" className="py-20 bg-white">
+      <div className="container mx-auto px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
+              About Reliance Industries Care Home
+            </h2>
+            <div className="w-24 h-1 bg-yellow-400 mx-auto mb-6"></div>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Providing exceptional care and creating a warm, nurturing home environment for our residents
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl p-8 shadow-lg">
+                <Heart className="w-16 h-16 text-blue-700 mb-4" />
+                <h3 className="text-2xl font-bold text-blue-900 mb-4">Our Mission</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  At Reliance Industries Care Home, we are dedicated to providing the highest quality of care in a comfortable, home-like setting. Located in the heart of Ottawa at 123 Prince Street, we believe that every resident deserves to live with dignity, respect, and compassion.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  Our experienced and caring staff are available around the clock to ensure the safety, comfort, and well-being of all our residents. We strive to create an environment where your loved ones can thrive and enjoy their golden years.
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white border-2 border-blue-100 rounded-xl p-6 hover:shadow-lg transition">
+                <Users className="w-12 h-12 text-blue-700 mb-3" />
+                <h4 className="text-xl font-bold text-blue-900 mb-2">Experienced Staff</h4>
+                <p className="text-gray-600">
+                  Our compassionate team of healthcare professionals is trained to provide personalized care tailored to each resident's unique needs.
+                </p>
+              </div>
+
+              <div className="bg-white border-2 border-blue-100 rounded-xl p-6 hover:shadow-lg transition">
+                <Home className="w-12 h-12 text-blue-700 mb-3" />
+                <h4 className="text-xl font-bold text-blue-900 mb-2">Home-Like Environment</h4>
+                <p className="text-gray-600">
+                  We've created a warm, welcoming atmosphere that feels like home, not an institution. Your comfort is our priority.
+                </p>
+              </div>
+
+              <div className="bg-white border-2 border-blue-100 rounded-xl p-6 hover:shadow-lg transition">
+                <Award className="w-12 h-12 text-blue-700 mb-3" />
+                <h4 className="text-xl font-bold text-blue-900 mb-2">Quality Care</h4>
+                <p className="text-gray-600">
+                  We maintain the highest standards of care, ensuring your loved ones receive the attention and support they deserve.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Call to Action */}
+          <div className="bg-gradient-to-r from-blue-900 to-blue-700 rounded-2xl p-8 md:p-12 text-center text-white">
+            <h3 className="text-3xl font-bold mb-4">Ready to Learn More?</h3>
+            <p className="text-xl text-blue-100 mb-6">
+              Contact us today to schedule a tour of our facility and meet our caring team
+            </p>
+            <a
+              href="tel:321-438-1919"
+              className="inline-block bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition shadow-lg"
+            >
+              Call Now: 321-438-1919
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
