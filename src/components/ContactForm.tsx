@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Phone, Mail, MapPin, Send, CheckCircle } from 'lucide-react';
-import { supabase } from '../lib/supabase';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
+  const formRef = useRef<HTMLFormElement>(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -25,18 +26,12 @@ const ContactForm = () => {
     setSubmitStatus('idle');
 
     try {
-      const { error } = await supabase
-        .from('contact_inquiries')
-        .insert([
-          {
-            name: formData.name,
-            email: formData.email,
-            phone: formData.phone,
-            message: formData.message
-          }
-        ]);
-
-      if (error) throw error;
+      await emailjs.sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID || '',
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID || '',
+        formRef.current!,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY || ''
+      );
 
       setSubmitStatus('success');
       setFormData({ name: '', email: '', phone: '', message: '' });
@@ -145,7 +140,7 @@ const ContactForm = () => {
                 </div>
               )}
 
-              <form onSubmit={handleSubmit} className="space-y-4">
+              <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">
                     Your Name *
