@@ -16,7 +16,7 @@ const Facilities = () => {
     {
       icon: Trees,
       title: 'Outdoor Area',
-      description: 'Our residents can enjoy a beautiful and serene outdoor environment. The grounds feature a water fountain, lush plants, and garden spaces, providing a peaceful setting to relax, socialize, or enjoy light gardening activities.'
+      description: 'Step outside into serenity. Our beautiful outdoor grounds feature tranquil garden spaces, a soothing fountain, and lush greenery—all designed to help you relax, socialize, and stay active. Residents enjoy peaceful walks, friendly gatherings, or gentle gardening in an environment that nurtures wellbeing and joy.'
     },
     {
       icon: BookOpen,
