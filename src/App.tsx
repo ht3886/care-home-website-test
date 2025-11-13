@@ -25,13 +25,13 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
-            <button onClick={() => scrollToSection('home')} className="flex items-center space-x-3 hover:opacity-80 transition">
-              <img src="/logo.jpg" alt="Broadway Care Homes Logo" className="h-14 w-auto" />
-              <div className="text-left">
+            <div className="flex items-center space-x-2">
+              <Heart className="w-8 h-8 text-teal-500" />
+              <div>
                 <h1 className="text-2xl font-bold text-slate-800">Broadway Care Homes</h1>
                 <p className="text-sm text-slate-500">Because You Deserve the Best</p>
               </div>
-            </button>
+            </div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">

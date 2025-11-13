@@ -13,8 +13,8 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             {/* Logo and Description */}
             <div className="md:col-span-2">
-              <div className="flex items-center space-x-3 mb-4">
-                <img src="/logo.jpg" alt="Broadway Care Homes Logo" className="h-16 w-auto" />
+              <div className="flex items-center space-x-2 mb-4">
+                <Heart className="w-8 h-8 text-teal-400" />
                 <div>
                   <h3 className="text-xl font-bold">Broadway Care Homes</h3>
                   <p className="text-sm text-cream-300">Because You Deserve the Best</p>
