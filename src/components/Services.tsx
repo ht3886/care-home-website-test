@@ -46,15 +46,15 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-charcoal-700 mb-4">
               Our Services
             </h2>
-            <div className="w-24 h-1 bg-yellow-400 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <div className="w-24 h-1 bg-teal-500 mx-auto mb-6"></div>
+            <p className="text-xl text-charcoal-400 max-w-3xl mx-auto">
               Comprehensive care services designed to meet the unique needs of each resident
             </p>
           </div>
@@ -65,15 +65,15 @@ const Services = () => {
               return (
                 <div
                   key={index}
-                  className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition transform hover:-translate-y-1"
+                  className="bg-cream-100 rounded-xl p-6 shadow-md hover:shadow-xl transition transform hover:-translate-y-1 border border-cream-300"
                 >
-                  <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                    <Icon className="w-8 h-8 text-blue-700" />
+                  <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
+                    <Icon className="w-8 h-8 text-teal-600" />
                   </div>
-                  <h3 className="text-lg font-bold text-blue-900 mb-2">
+                  <h3 className="text-lg font-bold text-charcoal-700 mb-2">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">
+                  <p className="text-charcoal-400 text-sm leading-relaxed">
                     {service.description}
                   </p>
                 </div>
@@ -82,22 +82,22 @@ const Services = () => {
           </div>
 
           {/* Contact CTA */}
-          <div className="text-center bg-blue-900 rounded-2xl p-8 md:p-12 text-white">
+          <div className="text-center bg-charcoal-700 rounded-2xl p-8 md:p-12 text-white">
             <h3 className="text-3xl font-bold mb-4">Have Questions About Our Services?</h3>
-            <p className="text-xl text-blue-100 mb-6">
+            <p className="text-xl text-cream-200 mb-6">
               Our team is here to answer all your questions and help you make the best decision for your loved one
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+13069798468"
-                className="inline-flex items-center justify-center space-x-2 bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition"
+                className="inline-flex items-center justify-center space-x-2 bg-teal-500 text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-teal-600 transition"
               >
                 <Clock className="w-5 h-5" />
                 <span>Call Us: (306) 979-8468</span>
               </a>
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center space-x-2 bg-white text-blue-900 px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition"
+                className="inline-flex items-center justify-center space-x-2 bg-white text-charcoal-700 px-8 py-4 rounded-lg text-lg font-bold hover:bg-cream-100 transition"
               >
                 <span>Send a Message</span>
               </a>

@@ -7,20 +7,20 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
   return (
-    <footer className="bg-blue-950 text-white py-12">
+    <footer className="bg-charcoal-800 text-white py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             {/* Logo and Description */}
             <div className="md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <Heart className="w-8 h-8 text-yellow-400" />
+                <Heart className="w-8 h-8 text-teal-400" />
                 <div>
                   <h3 className="text-xl font-bold">Broadway Care Homes</h3>
-                  <p className="text-sm text-blue-200">Compassionate Care</p>
+                  <p className="text-sm text-cream-300">Compassionate Care</p>
                 </div>
               </div>
-              <p className="text-blue-200 leading-relaxed mb-4">
+              <p className="text-cream-300 leading-relaxed mb-4">
                 Providing compassionate, quality care in a warm, home-like environment. Your loved ones deserve the best, and we're here to deliver it every day.
               </p>
             </div>
@@ -30,7 +30,7 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
               <h4 className="text-lg font-bold mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li>
-                  <button onClick={() => scrollToSection('home')} className="text-blue-200 hover:text-yellow-400 transition">
+                  <button onClick={() => scrollToSection('home')} className="text-cream-300 hover:text-teal-400 transition">
                     Home
                   </button>
                 </li>
@@ -62,24 +62,24 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
               <h4 className="text-lg font-bold mb-4">Contact Us</h4>
               <ul className="space-y-3">
                 <li className="flex items-start space-x-2">
-                  <Phone className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
+                  <Phone className="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" />
                   <div>
-                    <a href="tel:+13069798468" className="text-blue-200 hover:text-yellow-400 transition">
+                    <a href="tel:+13069798468" className="text-cream-300 hover:text-teal-400 transition">
                       (306) 979-8468
                     </a>
-                    <p className="text-sm text-blue-300">24/7 Available</p>
+                    <p className="text-sm text-cream-400">24/7 Available</p>
                   </div>
                 </li>
                 <li className="flex items-start space-x-2">
-                  <MapPin className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
-                  <div className="text-blue-200">
+                  <MapPin className="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" />
+                  <div className="text-cream-300">
                     <p>123 Prince Street</p>
                     <p>Saskatoon, SK</p>
                   </div>
                 </li>
                 <li className="flex items-start space-x-2">
-                  <Mail className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
-                  <a href="mailto:info@broadwaycares.ca" className="text-blue-200 hover:text-yellow-400 transition">
+                  <Mail className="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" />
+                  <a href="mailto:info@broadwaycares.ca" className="text-cream-300 hover:text-teal-400 transition">
                     info@broadwaycares.ca
                   </a>
                 </li>
@@ -88,14 +88,14 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
           </div>
 
           {/* Bottom Bar */}
-          <div className="border-t border-blue-800 pt-8">
+          <div className="border-t border-charcoal-600 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-              <p className="text-blue-300 text-sm text-center md:text-left">
+              <p className="text-cream-400 text-sm text-center md:text-left">
                 &copy; {new Date().getFullYear()} Broadway Care Homes. All rights reserved.
               </p>
 
-              <div className="flex items-center space-x-2 text-blue-300 text-sm">
-                <Heart className="w-4 h-4 text-yellow-400" />
+              <div className="flex items-center space-x-2 text-cream-400 text-sm">
+                <Heart className="w-4 h-4 text-teal-400" />
                 <span>Caring for your loved ones with compassion</span>
               </div>
             </div>

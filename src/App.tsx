@@ -26,43 +26,43 @@ function App() {
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <Heart className="w-8 h-8 text-blue-700" />
+              <Heart className="w-8 h-8 text-teal-500" />
               <div>
-                <h1 className="text-2xl font-bold text-blue-900">Broadway Care Homes</h1>
-                <p className="text-sm text-gray-600">Compassionate Care</p>
+                <h1 className="text-2xl font-bold text-charcoal-700">Broadway Care Homes</h1>
+                <p className="text-sm text-charcoal-400">Compassionate Care</p>
               </div>
             </div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <button onClick={() => scrollToSection('home')} className="text-gray-700 hover:text-blue-700 transition">
+              <button onClick={() => scrollToSection('home')} className="text-charcoal-500 hover:text-teal-500 transition">
                 Home
               </button>
-              <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-blue-700 transition">
+              <button onClick={() => scrollToSection('about')} className="text-charcoal-500 hover:text-teal-500 transition">
                 About Us
               </button>
-              <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-blue-700 transition">
+              <button onClick={() => scrollToSection('services')} className="text-charcoal-500 hover:text-teal-500 transition">
                 Our Services
               </button>
-              <button onClick={() => scrollToSection('facilities')} className="text-gray-700 hover:text-blue-700 transition">
+              <button onClick={() => scrollToSection('facilities')} className="text-charcoal-500 hover:text-teal-500 transition">
                 Facilities
               </button>
-              <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-blue-700 transition">
+              <button onClick={() => scrollToSection('contact')} className="text-charcoal-500 hover:text-teal-500 transition">
                 Contact
               </button>
             </nav>
 
             {/* Contact Info */}
-            <div className="hidden lg:flex items-center space-x-2 text-blue-900">
+            <div className="hidden lg:flex items-center space-x-2 text-charcoal-700">
               <Phone className="w-5 h-5" />
-              <a href="tel:+13069798468" className="font-semibold text-lg hover:text-blue-700 transition">
+              <a href="tel:+13069798468" className="font-semibold text-lg hover:text-teal-500 transition">
                 (306) 979-8468
               </a>
             </div>
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden text-gray-700"
+              className="md:hidden text-charcoal-500"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -73,22 +73,22 @@ function App() {
           {mobileMenuOpen && (
             <div className="md:hidden py-4 border-t">
               <nav className="flex flex-col space-y-3">
-                <button onClick={() => scrollToSection('home')} className="text-left text-gray-700 hover:text-blue-700 transition py-2">
+                <button onClick={() => scrollToSection('home')} className="text-left text-charcoal-500 hover:text-teal-500 transition py-2">
                   Home
                 </button>
-                <button onClick={() => scrollToSection('about')} className="text-left text-gray-700 hover:text-blue-700 transition py-2">
+                <button onClick={() => scrollToSection('about')} className="text-left text-charcoal-500 hover:text-teal-500 transition py-2">
                   About Us
                 </button>
-                <button onClick={() => scrollToSection('services')} className="text-left text-gray-700 hover:text-blue-700 transition py-2">
+                <button onClick={() => scrollToSection('services')} className="text-left text-charcoal-500 hover:text-teal-500 transition py-2">
                   Our Services
                 </button>
-                <button onClick={() => scrollToSection('facilities')} className="text-left text-gray-700 hover:text-blue-700 transition py-2">
+                <button onClick={() => scrollToSection('facilities')} className="text-left text-charcoal-500 hover:text-teal-500 transition py-2">
                   Facilities
                 </button>
-                <button onClick={() => scrollToSection('contact')} className="text-left text-gray-700 hover:text-blue-700 transition py-2">
+                <button onClick={() => scrollToSection('contact')} className="text-left text-charcoal-500 hover:text-teal-500 transition py-2">
                   Contact
                 </button>
-                <a href="tel:+13069798468" className="flex items-center space-x-2 text-blue-900 font-semibold py-2">
+                <a href="tel:+13069798468" className="flex items-center space-x-2 text-teal-600 font-semibold py-2">
                   <Phone className="w-5 h-5" />
                   <span>(306) 979-8468</span>
                 </a>
