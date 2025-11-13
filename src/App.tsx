@@ -29,7 +29,7 @@ function App() {
               <Heart className="w-8 h-8 text-teal-500" />
               <div>
                 <h1 className="text-2xl font-bold text-slate-800">Broadway Care Homes</h1>
-                <p className="text-sm text-slate-500">Compassionate Care</p>
+                <p className="text-sm text-slate-500">Because You Deserve the Best</p>
               </div>
             </div>
 
@@ -54,9 +54,9 @@ function App() {
 
             {/* Contact Info */}
             <div className="hidden lg:flex items-center space-x-2 text-slate-700">
-              <Phone className="w-5 h-5" />
-              <a href="tel:+13069798468" className="font-semibold text-lg hover:text-teal-500 transition">
-                (306) 979-8468
+              <Mail className="w-5 h-5" />
+              <a href="mailto:info@broadwaycare.ca" className="font-semibold text-lg hover:text-teal-500 transition">
+                info@broadwaycare.ca
               </a>
             </div>
 
@@ -88,9 +88,9 @@ function App() {
                 <button onClick={() => scrollToSection('contact')} className="text-left text-charcoal-500 hover:text-teal-500 transition py-2">
                   Contact
                 </button>
-                <a href="tel:+13069798468" className="flex items-center space-x-2 text-slate-700 font-semibold py-2">
-                  <Phone className="w-5 h-5" />
-                  <span>(306) 979-8468</span>
+                <a href="mailto:info@broadwaycare.ca" className="flex items-center space-x-2 text-slate-700 font-semibold py-2">
+                  <Mail className="w-5 h-5" />
+                  <span>info@broadwaycare.ca</span>
                 </a>
               </nav>
             </div>

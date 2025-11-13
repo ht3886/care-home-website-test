@@ -17,11 +17,11 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
                 <Heart className="w-8 h-8 text-teal-400" />
                 <div>
                   <h3 className="text-xl font-bold">Broadway Care Homes</h3>
-                  <p className="text-sm text-cream-300">Compassionate Care</p>
+                  <p className="text-sm text-cream-300">Because You Deserve the Best</p>
                 </div>
               </div>
               <p className="text-cream-300 leading-relaxed mb-4">
-                Providing compassionate, quality care in a warm, home-like environment. Your loved ones deserve the best, and we're here to deliver it every day.
+                Providing exceptional, compassionate care in a warm, home-like environment. Because you deserve the best care possible.
               </p>
             </div>
 
@@ -35,22 +35,22 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => scrollToSection('about')} className="text-blue-200 hover:text-yellow-400 transition">
+                  <button onClick={() => scrollToSection('about')} className="text-cream-300 hover:text-teal-400 transition">
                     About Us
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => scrollToSection('services')} className="text-blue-200 hover:text-yellow-400 transition">
+                  <button onClick={() => scrollToSection('services')} className="text-cream-300 hover:text-teal-400 transition">
                     Our Services
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => scrollToSection('facilities')} className="text-blue-200 hover:text-yellow-400 transition">
+                  <button onClick={() => scrollToSection('facilities')} className="text-cream-300 hover:text-teal-400 transition">
                     Facilities
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => scrollToSection('contact')} className="text-blue-200 hover:text-yellow-400 transition">
+                  <button onClick={() => scrollToSection('contact')} className="text-cream-300 hover:text-teal-400 transition">
                     Contact
                   </button>
                 </li>
@@ -62,12 +62,12 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
               <h4 className="text-lg font-bold mb-4">Contact Us</h4>
               <ul className="space-y-3">
                 <li className="flex items-start space-x-2">
-                  <Phone className="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" />
+                  <Mail className="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" />
                   <div>
-                    <a href="tel:+13069798468" className="text-cream-300 hover:text-teal-400 transition">
-                      (306) 979-8468
+                    <a href="mailto:info@broadwaycare.ca" className="text-cream-300 hover:text-teal-400 transition break-all">
+                      info@broadwaycare.ca
                     </a>
-                    <p className="text-sm text-cream-400">24/7 Available</p>
+                    <p className="text-sm text-cream-400">Best way to reach us</p>
                   </div>
                 </li>
                 <li className="flex items-start space-x-2">
@@ -78,10 +78,13 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
                   </div>
                 </li>
                 <li className="flex items-start space-x-2">
-                  <Mail className="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" />
-                  <a href="mailto:info@broadwaycares.ca" className="text-cream-300 hover:text-teal-400 transition">
-                    info@broadwaycares.ca
-                  </a>
+                  <Phone className="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <a href="tel:+13069798468" className="text-cream-300 hover:text-teal-400 transition">
+                      (306) 979-8468
+                    </a>
+                    <p className="text-sm text-cream-400">Available 24/7</p>
+                  </div>
                 </li>
               </ul>
             </div>

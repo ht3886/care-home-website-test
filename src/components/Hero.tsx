@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -15,37 +15,38 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-10 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Your Brightest Days Are Waiting!
+            Because You Deserve the Best
           </h1>
           <p className="text-xl md:text-2xl text-cream-100 mb-12 leading-relaxed">
-            Experience compassionate care in a warm, welcoming environment at Broadway Care Homes
+            Experience exceptional care in a warm, welcoming environment at Broadway Care Homes
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="tel:+13069798468"
+              href="mailto:info@broadwaycare.ca"
               className="inline-flex items-center space-x-3 bg-teal-500 text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-teal-600 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
-              <Phone className="w-6 h-6" />
-              <span>Call for a Tour: (306) 979-8468</span>
+              <Mail className="w-6 h-6" />
+              <span>Email Us Today</span>
             </a>
 
             <a
               href="#contact"
               className="inline-flex items-center space-x-3 bg-white text-slate-700 px-8 py-4 rounded-lg text-lg font-bold hover:bg-cream-50 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
-              <span>Get In Touch</span>
+              <span>Schedule a Tour</span>
             </a>
           </div>
 
           {/* Contact Info Cards */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-white">
-              <Phone className="w-8 h-8 mb-3 mx-auto" />
-              <p className="text-sm text-cream-200 mb-1">Call Us</p>
-              <a href="tel:+13069798468" className="text-2xl font-bold hover:text-teal-400 transition">
-                (306) 979-8468
+              <Mail className="w-8 h-8 mb-3 mx-auto" />
+              <p className="text-sm text-cream-200 mb-1">Email Us</p>
+              <a href="mailto:info@broadwaycare.ca" className="text-xl font-bold hover:text-teal-400 transition break-all">
+                info@broadwaycare.ca
               </a>
+              <p className="text-sm text-cream-200 mt-1">Best way to reach us</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-white">

@@ -69,14 +69,14 @@ const ContactForm = () => {
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
                     <div className="bg-teal-500 p-3 rounded-lg">
-                      <Phone className="w-6 h-6 text-white" />
+                      <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <p className="text-cream-200 text-sm mb-1">Phone</p>
-                      <a href="tel:+13069798468" className="text-white text-xl font-bold hover:text-teal-300 transition">
-                        (306) 979-8468
+                      <p className="text-cream-200 text-sm mb-1">Email</p>
+                      <a href="mailto:info@broadwaycare.ca" className="text-white text-lg font-bold hover:text-teal-300 transition break-all">
+                        info@broadwaycare.ca
                       </a>
-                      <p className="text-cream-300 text-sm mt-1">Available 24/7</p>
+                      <p className="text-cream-300 text-sm mt-1">Best way to reach us</p>
                     </div>
                   </div>
 
@@ -93,14 +93,14 @@ const ContactForm = () => {
 
                   <div className="flex items-start space-x-4">
                     <div className="bg-teal-500 p-3 rounded-lg">
-                      <Mail className="w-6 h-6 text-white" />
+                      <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <p className="text-cream-200 text-sm mb-1">Email Us</p>
-                      <a href="mailto:info@broadwaycares.ca" className="text-white text-lg font-semibold hover:text-teal-300 transition">
-                        info@broadwaycares.ca
+                      <p className="text-cream-200 text-sm mb-1">Phone</p>
+                      <a href="tel:+13069798468" className="text-white text-lg font-semibold hover:text-teal-300 transition">
+                        (306) 979-8468
                       </a>
-                      <p className="text-cream-300">Best way to reach us</p>
+                      <p className="text-cream-300 text-sm mt-1">Available 24/7</p>
                     </div>
                   </div>
                 </div>
@@ -112,11 +112,11 @@ const ContactForm = () => {
                   Schedule a tour of our facility and meet our caring team in person. We'd love to show you around!
                 </p>
                 <a
-                  href="mailto:info@broadwaycares.ca"
+                  href="mailto:info@broadwaycare.ca"
                   className="inline-flex items-center space-x-2 bg-white text-teal-600 px-6 py-3 rounded-lg font-bold hover:bg-cream-100 transition"
                 >
                   <Mail className="w-5 h-5" />
-                  <span>Email to Book</span>
+                  <span>Email to Book a Tour</span>
                 </a>
               </div>
             </div>
@@ -224,7 +224,7 @@ const ContactForm = () => {
               </form>
 
               <p className="text-slate-600 text-sm text-center mt-4">
-                Or call us at <a href="tel:+13069798468" className="text-teal-600 font-semibold hover:underline">(306) 979-8468</a> or email <a href="mailto:info@broadwaycares.ca" className="text-teal-600 font-semibold hover:underline">info@broadwaycares.ca</a>
+                Prefer to email? Reach us at <a href="mailto:info@broadwaycare.ca" className="text-teal-600 font-semibold hover:underline">info@broadwaycare.ca</a>
               </p>
             </div>
           </div>
