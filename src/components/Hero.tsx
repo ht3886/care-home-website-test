@@ -14,6 +14,9 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 z-10 text-center">
         <div className="max-w-4xl mx-auto">
+          <div className="flex justify-center mb-8">
+            <img src="/logo.jpg" alt="Broadway Care Homes Logo" className="h-32 md:h-40 w-auto" />
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Because You Deserve the Best
           </h1>
