@@ -7,7 +7,7 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
   return (
-    <footer className="bg-charcoal-800 text-white py-12">
+    <footer className="bg-slate-800 text-white py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
@@ -88,7 +88,7 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
           </div>
 
           {/* Bottom Bar */}
-          <div className="border-t border-charcoal-600 pt-8">
+          <div className="border-t border-slate-600 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-cream-400 text-sm text-center md:text-left">
                 &copy; {new Date().getFullYear()} Broadway Care Homes. All rights reserved.

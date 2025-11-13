@@ -48,7 +48,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-charcoal-700">
+    <section id="contact" className="py-20 bg-gradient-to-br from-slate-700 to-slate-600">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
@@ -122,7 +122,7 @@ const ContactForm = () => {
             </div>
 
             <div className="bg-white rounded-xl shadow-2xl p-8">
-              <h3 className="text-2xl font-bold text-charcoal-700 mb-6">Send Us a Message</h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Send Us a Message</h3>
 
               {submitStatus === 'success' && (
                 <div className="mb-6 bg-green-50 border border-green-200 rounded-lg p-4 flex items-start space-x-3">
@@ -142,7 +142,7 @@ const ContactForm = () => {
 
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                  <label htmlFor="from_name" className="block text-charcoal-600 font-semibold mb-2">
+                  <label htmlFor="from_name" className="block text-slate-700 font-semibold mb-2">
                     Your Name *
                   </label>
                   <input
@@ -223,7 +223,7 @@ const ContactForm = () => {
                 </button>
               </form>
 
-              <p className="text-charcoal-500 text-sm text-center mt-4">
+              <p className="text-slate-600 text-sm text-center mt-4">
                 Or call us at <a href="tel:+13069798468" className="text-teal-600 font-semibold hover:underline">(306) 979-8468</a> or email <a href="mailto:info@broadwaycares.ca" className="text-teal-600 font-semibold hover:underline">info@broadwaycares.ca</a>
               </p>
             </div>

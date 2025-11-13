@@ -50,11 +50,11 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-charcoal-700 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
               Our Services
             </h2>
             <div className="w-24 h-1 bg-teal-500 mx-auto mb-6"></div>
-            <p className="text-xl text-charcoal-400 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Comprehensive care services designed to meet the unique needs of each resident
             </p>
           </div>
@@ -70,10 +70,10 @@ const Services = () => {
                   <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
                     <Icon className="w-8 h-8 text-teal-600" />
                   </div>
-                  <h3 className="text-lg font-bold text-charcoal-700 mb-2">
+                  <h3 className="text-lg font-bold text-slate-800 mb-2">
                     {service.title}
                   </h3>
-                  <p className="text-charcoal-400 text-sm leading-relaxed">
+                  <p className="text-slate-600 text-sm leading-relaxed">
                     {service.description}
                   </p>
                 </div>
@@ -82,7 +82,7 @@ const Services = () => {
           </div>
 
           {/* Contact CTA */}
-          <div className="text-center bg-charcoal-700 rounded-2xl p-8 md:p-12 text-white">
+          <div className="text-center bg-slate-700 rounded-2xl p-8 md:p-12 text-white">
             <h3 className="text-3xl font-bold mb-4">Have Questions About Our Services?</h3>
             <p className="text-xl text-cream-200 mb-6">
               Our team is here to answer all your questions and help you make the best decision for your loved one
@@ -97,7 +97,7 @@ const Services = () => {
               </a>
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center space-x-2 bg-white text-charcoal-700 px-8 py-4 rounded-lg text-lg font-bold hover:bg-cream-100 transition"
+                className="inline-flex items-center justify-center space-x-2 bg-white text-slate-700 px-8 py-4 rounded-lg text-lg font-bold hover:bg-cream-50 transition"
               >
                 <span>Send a Message</span>
               </a>

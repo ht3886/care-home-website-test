@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-charcoal-700 via-charcoal-600 to-charcoal-500 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-700 via-slate-600 to-slate-500 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
@@ -32,7 +32,7 @@ const Hero = () => {
 
             <a
               href="#contact"
-              className="inline-flex items-center space-x-3 bg-white text-charcoal-700 px-8 py-4 rounded-lg text-lg font-bold hover:bg-cream-100 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              className="inline-flex items-center space-x-3 bg-white text-slate-700 px-8 py-4 rounded-lg text-lg font-bold hover:bg-cream-50 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               <span>Get In Touch</span>
             </a>

@@ -50,11 +50,11 @@ const Facilities = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-charcoal-700 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
               Our Facilities
             </h2>
             <div className="w-24 h-1 bg-teal-500 mx-auto mb-6"></div>
-            <p className="text-xl text-charcoal-400 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               A comfortable, safe environment designed with your loved one's comfort and happiness in mind
             </p>
           </div>
@@ -70,10 +70,10 @@ const Facilities = () => {
                   <div className="bg-teal-500 w-16 h-16 rounded-full flex items-center justify-center mb-4">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-lg font-bold text-charcoal-700 mb-2">
+                  <h3 className="text-lg font-bold text-slate-800 mb-2">
                     {facility.title}
                   </h3>
-                  <p className="text-charcoal-400 text-sm leading-relaxed">
+                  <p className="text-slate-600 text-sm leading-relaxed">
                     {facility.description}
                   </p>
                 </div>

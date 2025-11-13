@@ -7,11 +7,11 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-charcoal-700 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
               About Broadway Care Homes
             </h2>
             <div className="w-24 h-1 bg-teal-500 mx-auto mb-6"></div>
-            <p className="text-xl text-charcoal-400 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Providing exceptional care and creating a warm, nurturing home environment for our residents
             </p>
           </div>
@@ -20,8 +20,8 @@ const About = () => {
             <div>
               <div className="bg-white rounded-2xl p-8 shadow-lg border border-cream-300">
                 <Heart className="w-16 h-16 text-teal-500 mb-4" />
-                <h3 className="text-2xl font-bold text-charcoal-700 mb-4">Our Mission</h3>
-                <p className="text-charcoal-500 leading-relaxed mb-4">
+                <h3 className="text-2xl font-bold text-slate-800 mb-4">Our Mission</h3>
+                <p className="text-slate-600 leading-relaxed mb-4">
                   At Broadway Care Homes, we are dedicated to providing the highest quality of care in a comfortable, home-like setting. Located at 123 Prince Street in Saskatoon, SK, we believe that every resident deserves to live with dignity, respect, and compassion.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
@@ -33,24 +33,24 @@ const About = () => {
             <div className="space-y-6">
               <div className="bg-white border-2 border-cream-300 rounded-xl p-6 hover:shadow-lg transition">
                 <Users className="w-12 h-12 text-teal-500 mb-3" />
-                <h4 className="text-xl font-bold text-charcoal-700 mb-2">Experienced Staff</h4>
-                <p className="text-charcoal-400">
+                <h4 className="text-xl font-bold text-slate-800 mb-2">Experienced Staff</h4>
+                <p className="text-slate-600">
                   Our compassionate team of healthcare professionals is trained to provide personalized care tailored to each resident's unique needs.
                 </p>
               </div>
 
               <div className="bg-white border-2 border-cream-300 rounded-xl p-6 hover:shadow-lg transition">
                 <Home className="w-12 h-12 text-teal-500 mb-3" />
-                <h4 className="text-xl font-bold text-charcoal-700 mb-2">Home-Like Environment</h4>
-                <p className="text-charcoal-400">
+                <h4 className="text-xl font-bold text-slate-800 mb-2">Home-Like Environment</h4>
+                <p className="text-slate-600">
                   We've created a warm, welcoming atmosphere that feels like home, not an institution. Your comfort is our priority.
                 </p>
               </div>
 
               <div className="bg-white border-2 border-cream-300 rounded-xl p-6 hover:shadow-lg transition">
                 <Award className="w-12 h-12 text-teal-500 mb-3" />
-                <h4 className="text-xl font-bold text-charcoal-700 mb-2">Quality Care</h4>
-                <p className="text-charcoal-400">
+                <h4 className="text-xl font-bold text-slate-800 mb-2">Quality Care</h4>
+                <p className="text-slate-600">
                   We maintain the highest standards of care, ensuring your loved ones receive the attention and support they deserve.
                 </p>
               </div>

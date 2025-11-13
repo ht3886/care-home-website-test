@@ -28,14 +28,14 @@ function App() {
             <div className="flex items-center space-x-2">
               <Heart className="w-8 h-8 text-teal-500" />
               <div>
-                <h1 className="text-2xl font-bold text-charcoal-700">Broadway Care Homes</h1>
-                <p className="text-sm text-charcoal-400">Compassionate Care</p>
+                <h1 className="text-2xl font-bold text-slate-800">Broadway Care Homes</h1>
+                <p className="text-sm text-slate-500">Compassionate Care</p>
               </div>
             </div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <button onClick={() => scrollToSection('home')} className="text-charcoal-500 hover:text-teal-500 transition">
+              <button onClick={() => scrollToSection('home')} className="text-slate-600 hover:text-teal-500 transition font-medium">
                 Home
               </button>
               <button onClick={() => scrollToSection('about')} className="text-charcoal-500 hover:text-teal-500 transition">
@@ -53,7 +53,7 @@ function App() {
             </nav>
 
             {/* Contact Info */}
-            <div className="hidden lg:flex items-center space-x-2 text-charcoal-700">
+            <div className="hidden lg:flex items-center space-x-2 text-slate-700">
               <Phone className="w-5 h-5" />
               <a href="tel:+13069798468" className="font-semibold text-lg hover:text-teal-500 transition">
                 (306) 979-8468
@@ -62,7 +62,7 @@ function App() {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden text-charcoal-500"
+              className="md:hidden text-slate-600"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -88,7 +88,7 @@ function App() {
                 <button onClick={() => scrollToSection('contact')} className="text-left text-charcoal-500 hover:text-teal-500 transition py-2">
                   Contact
                 </button>
-                <a href="tel:+13069798468" className="flex items-center space-x-2 text-teal-600 font-semibold py-2">
+                <a href="tel:+13069798468" className="flex items-center space-x-2 text-slate-700 font-semibold py-2">
                   <Phone className="w-5 h-5" />
                   <span>(306) 979-8468</span>
                 </a>
