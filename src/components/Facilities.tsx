@@ -1,47 +1,27 @@
 import React from 'react';
-import { Home, Armchair, Trees, Users, Utensils, Tv, Flower2, Sun } from 'lucide-react';
+import { Home, Utensils, Trees, BookOpen } from 'lucide-react';
 
 const Facilities = () => {
   const facilities = [
     {
       icon: Home,
-      title: 'Private & Semi-Private Rooms',
-      description: 'Comfortable, well-appointed rooms designed to feel like home with personalized touches.'
-    },
-    {
-      icon: Armchair,
-      title: 'Common Living Areas',
-      description: 'Spacious, welcoming common rooms for socializing, activities, and family visits.'
+      title: 'Private Rooms',
+      description: 'No semi-private rooms. Each resident enjoys their own comfortable, private space.'
     },
     {
       icon: Utensils,
       title: 'Dining Room',
-      description: 'Bright, inviting dining area where residents enjoy nutritious meals together.'
+      description: 'At Broadway Care Homes mealtime is a comfortable and social experience. Our dining room features cushioned chairs, supportive armchairs, and raised seats designed for easy sitting and standing.'
     },
     {
       icon: Trees,
-      title: 'Outdoor Spaces',
-      description: 'Beautiful outdoor areas with gardens and seating for fresh air and relaxation.'
+      title: 'Outdoor Area',
+      description: 'Our residents can enjoy a beautiful and serene outdoor environment. The grounds feature a water fountain, lush plants, and garden spaces, providing a peaceful setting to relax, socialize, or enjoy light gardening activities.'
     },
     {
-      icon: Users,
-      title: 'Activity Rooms',
-      description: 'Dedicated spaces for recreation, crafts, games, and social gatherings.'
-    },
-    {
-      icon: Tv,
-      title: 'Entertainment Areas',
-      description: 'Cozy spaces with entertainment options for movies, music, and group activities.'
-    },
-    {
-      icon: Sun,
-      title: 'Bright & Airy',
-      description: 'Natural lighting throughout the facility creates a warm, uplifting atmosphere.'
-    },
-    {
-      icon: Flower2,
-      title: 'Beautiful Decor',
-      description: 'Tastefully decorated spaces that feel welcoming and home-like, not institutional.'
+      icon: BookOpen,
+      title: 'Library',
+      description: 'Our personal care home features a library with books and magazines for residents to browse and explore. The shelves are filled with a variety of reading materials that encourage mental stimulation, lifelong learning, and the enjoyment of discovering new stories and topics.'
     }
   ];
 
@@ -87,7 +67,7 @@ const Facilities = () => {
               <div>
                 <h3 className="text-3xl font-bold mb-4">Conveniently Located in Saskatoon</h3>
                 <p className="text-xl text-teal-50 mb-6 leading-relaxed">
-                  Our care home is situated in a peaceful neighborhood at 123 Prince Street, Saskatoon, SK. Easy to visit and close to amenities.
+                  Our care home is situated in a peaceful neighborhood at 103 Ells Crescent, Saskatoon, SK. Easy to visit and close to amenities.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
@@ -97,7 +77,7 @@ const Facilities = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold text-lg">123 Prince Street</p>
+                      <p className="font-semibold text-lg">103 Ells Crescent</p>
                       <p className="text-teal-50">Saskatoon, SK</p>
                     </div>
                   </div>
@@ -110,10 +90,10 @@ const Facilities = () => {
                   We welcome you to tour our facility and see firsthand the warm, caring environment we provide.
                 </p>
                 <a
-                  href="tel:+13069798468"
+                  href="mailto:info@broadwaycare.ca"
                   className="inline-block bg-white text-teal-600 px-8 py-4 rounded-lg text-lg font-bold hover:bg-cream-100 transition shadow-lg"
                 >
-                  Call to Book: (306) 979-8468
+                  Email to Book a Tour
                 </a>
               </div>
             </div>

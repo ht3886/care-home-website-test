@@ -1,47 +1,32 @@
 import React from 'react';
-import { Clock, Heart, Pill, Utensils, Activity, Users, Shield, Smile } from 'lucide-react';
+import { Clock, Heart, Activity, Shield, Smile } from 'lucide-react';
 
 const Services = () => {
   const services = [
     {
       icon: Clock,
-      title: '24-Hour Care',
-      description: 'Round-the-clock professional care and supervision to ensure safety and comfort at all times.'
-    },
-    {
-      icon: Pill,
-      title: 'Medication Management',
-      description: 'Careful administration and monitoring of medications by trained healthcare professionals.'
-    },
-    {
-      icon: Utensils,
-      title: 'Nutritious Meals',
-      description: 'Delicious, well-balanced meals prepared daily to meet dietary needs and preferences.'
+      title: '24/7 Care',
+      description: 'Residents have access to a call button anytime, and our staff are awake at night to respond immediately. Compassionate care is always available, day and night.'
     },
     {
       icon: Activity,
-      title: 'Activities & Recreation',
-      description: 'Engaging activities and social programs designed to promote physical and mental well-being.'
+      title: 'Activities & Programs',
+      description: 'Arts & Crafts, Music & Entertainment, Gentle Exercise & Wellness, Games & Puzzles, Social & Community Events. Every activity is tailored to residents\' abilities and interests.'
     },
     {
       icon: Heart,
       title: 'Personal Care',
-      description: 'Assistance with daily activities including bathing, dressing, and grooming with dignity and respect.'
-    },
-    {
-      icon: Users,
-      title: 'Social Support',
-      description: 'Creating meaningful connections through group activities and community engagement.'
+      description: 'We provide gentle, individualized support with daily tasks to help residents live comfortably and with dignity. Our caring staff assist with bathing, grooming, dressing, mobility, toileting, and mealtime needs.'
     },
     {
       icon: Shield,
-      title: 'Safety & Security',
-      description: 'Secure environment with emergency response systems and trained staff on-site 24/7.'
+      title: 'Safety and Security',
+      description: 'Resident safety is our top priority. Our home features key fob entry and exit, cameras in all common areas, and grab bars and non-slip flooring throughout for added protection.'
     },
     {
       icon: Smile,
-      title: 'Companion Care',
-      description: 'Emotional support and companionship to ensure residents feel valued and connected.'
+      title: 'Companionship',
+      description: 'We provide friendly, one-on-one companionship to help residents feel supported, engaged, and valued. Our caregivers spend quality time with residents, offering conversation, emotional support, and participation in activities.'
     }
   ];
 
@@ -55,7 +40,7 @@ const Services = () => {
             </h2>
             <div className="w-24 h-1 bg-teal-500 mx-auto mb-6"></div>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Comprehensive care services designed to meet the unique needs of each resident
+              Comprehensive care services designed to meet the unique needs of each resident with dignity and respect
             </p>
           </div>
 
