@@ -11,7 +11,7 @@ const Facilities = () => {
     {
       icon: Utensils,
       title: 'Dining Room',
-      description: 'At Broadway Care Homes mealtime is a comfortable and social experience. Our dining room features cushioned chairs, supportive armchairs, and raised seats designed for easy sitting and standing.'
+      description: 'Share warm moments and enjoy delicious meals in our welcoming dining room. Broadway Care Homes creates a social, uplifting atmosphere for every meal: cushioned chairs, supportive armchairs, and accessible seating invite connection and comfort. Gather, laugh, and savor fresh, nutritious food—mealtime is always something to look forward to.'
     },
     {
       icon: Trees,
