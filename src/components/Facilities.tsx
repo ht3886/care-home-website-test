@@ -6,7 +6,7 @@ const Facilities = () => {
     {
       icon: Home,
       title: 'Private Rooms',
-      description: 'Each resident enjoys their own comfortable, private space.'
+      description: 'Experience true comfort and peace of mind in your own private sanctuary. Each resident enjoys a spacious, thoughtfully-designed room—crafted for rest, privacy, and relaxation. Discover a place that feels uniquely yours, where you can unwind and feel at home every day.'
     },
     {
       icon: Utensils,
