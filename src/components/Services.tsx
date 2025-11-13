@@ -67,7 +67,7 @@ const Services = () => {
                 Safety and Security
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                Resident safety is our top priority. Our home features key fob entry and exit, cameras in all common areas, and grab bars and non-slip flooring throughout for added protection. Staff perform frequent checks, including hourly and overnight rounds, ensuring residents are always monitored and supported. With these measures in place, residents can feel safe and families can have complete peace of mind.
+                Resident safety is our top priority. Our home features key fob entry and exit, cameras in all common areas, and grab bars and non-slip flooring throughout for added protection. Staff perform frequent checks, including hourly and overnight rounds, ensuring residents are always monitored and supported.
               </p>
             </div>
 
