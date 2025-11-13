@@ -56,7 +56,7 @@ const Hero = () => {
                 </svg>
               </div>
               <p className="text-sm text-cream-200 mb-1">Visit Us</p>
-              <p className="text-lg font-semibold">123 Prince Street</p>
+              <p className="text-lg font-semibold">103 Ells Crescent</p>
               <p className="text-sm text-cream-200">Saskatoon, SK</p>
             </div>
           </div>

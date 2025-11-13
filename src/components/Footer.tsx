@@ -73,7 +73,7 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
                 <li className="flex items-start space-x-2">
                   <MapPin className="w-5 h-5 text-teal-400 flex-shrink-0 mt-0.5" />
                   <div className="text-cream-300">
-                    <p>123 Prince Street</p>
+                    <p>103 Ells Crescent</p>
                     <p>Saskatoon, SK</p>
                   </div>
                 </li>
