@@ -6,7 +6,7 @@ const Facilities = () => {
     {
       icon: Home,
       title: 'Private Rooms',
-      description: 'No semi-private rooms. Each resident enjoys their own comfortable, private space.'
+      description: 'Each resident enjoys their own comfortable, private space.'
     },
     {
       icon: Utensils,
