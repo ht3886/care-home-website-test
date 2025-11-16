@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Phone, MapPin, Mail } from 'lucide-react';
+import Logo from '../../public/broadway-logo.jpeg';  
 
 interface FooterProps {
   scrollToSection: (id: string) => void;
@@ -14,7 +15,8 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
             {/* Logo and Description */}
             <div className="md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <Heart className="w-8 h-8 text-teal-400" />
+                <img src={Logo}  alt="Broadway Care Homes" className="w-10 h-10 mr-2 object-contain                    rounded-full" />
+
                 <div>
                   <h3 className="text-xl font-bold">Broadway Care Homes</h3>
                   <p className="text-sm text-cream-300">Because You Deserve the Best</p>
