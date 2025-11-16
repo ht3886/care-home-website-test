@@ -15,7 +15,7 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
             {/* Logo and Description */}
             <div className="md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <img src={Logo}  alt="Broadway Care Homes" className="w-10 h-10 mr-2 object-contain                    rounded-full" />
+                <img src={Logo}  alt="Broadway Care Homes" className="w-11 h-11 mr-2 object-contain                    rounded-full" />
 
                 <div>
                   <h3 className="text-xl font-bold">Broadway Care Homes</h3>
