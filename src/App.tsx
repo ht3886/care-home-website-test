@@ -6,7 +6,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Facilities from './components/Facilities';
 import Footer from './components/Footer';
-import Logo from '../../public/broadway-logo.jpeg';  
+import Logo from '../public/broadway-logo.jpeg';  
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
