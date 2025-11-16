@@ -27,7 +27,7 @@ function App() {
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <img src={Logo}  alt="Broadway Care Homes" className="w-15 h-15 mr-2 object-contain                    rounded-full" />
+              <img src={Logo}  alt="Broadway Care Homes" className="w-11 h-11 mr-2 object-contain                    rounded-full" />
               <div>
                 <h1 className="text-2xl font-bold text-slate-800">Broadway Care Homes</h1>
                 <p className="text-sm text-slate-500">Because You Deserve the Best</p>
