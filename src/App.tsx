@@ -6,6 +6,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Facilities from './components/Facilities';
 import Footer from './components/Footer';
+import Logo from '../../public/broadway-logo.jpeg';  
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,7 +27,7 @@ function App() {
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <Heart className="w-8 h-8 text-teal-500" />
+              <img src={Logo}  alt="Broadway Care Homes" className="w-10 h-10 mr-2 object-contain                    rounded-full" />
               <div>
                 <h1 className="text-2xl font-bold text-slate-800">Broadway Care Homes</h1>
                 <p className="text-sm text-slate-500">Because You Deserve the Best</p>
