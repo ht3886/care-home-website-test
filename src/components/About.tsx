@@ -22,7 +22,7 @@ const About = () => {
                 <Heart className="w-16 h-16 text-teal-500 mb-4" />
                 <h3 className="text-2xl font-bold text-slate-800 mb-4">Our Mission</h3>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  At Broadway Care Homes, we are dedicated to providing the highest quality of care in a comfortable, home-like setting. Located at 123 Prince Street in Saskatoon, SK, we believe that every resident deserves to live with dignity, respect, and compassion.
+                  At Broadway Care Homes, we are dedicated to providing the highest quality of care in a comfortable, home-like setting. Located at 103 Ells Crescent in Saskatoon, SK, we believe that every resident deserves to live with dignity, respect, and compassion.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
                   Our owners are registered nurses with 15 years of bedside experience in long-term care, medical-surgical units, ICU, and emergency. Our experienced and caring staff are available around the clock to ensure the safety, comfort, and well-being of all our residents. We strive to create an environment where your loved ones can thrive and enjoy their golden years.
